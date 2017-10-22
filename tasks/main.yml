@@ -19,7 +19,7 @@
 - name: Upgrade Atom packages
   command: apm upgrade --no-confirm
   register: apm_upgrade
-  changed_when: apm_upgrade.stdout | !search("Package Updates Available (0)")
+  # changed_when: apm_upgrade.stdout | !search("Package Updates Available (0)")
   when: atom_upgrade_packages
 
 - debug:
