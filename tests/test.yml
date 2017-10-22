@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  remote_user: root
+  vars:
+    atom_packages:
+      - editorconfig
+      - git-plus
+  roles:
+    - ansible-role-atom

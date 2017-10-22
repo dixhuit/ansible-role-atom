@@ -1,0 +1,55 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "0d0704af-4cea-45f7-993e-e1ef93dc23a2"
+  "bracket-matcher":
+    autocompleteSmartQuotes: false
+    wrapSelectionsInBrackets: false
+  core:
+    disabledPackages: [
+      "link"
+      "open-on-github"
+      "welcome"
+    ]
+    projectHome: "/Users/danbohea/projects"
+    telemetryConsent: "limited"
+    themes: [
+      "isotope-ui"
+      "afterglow-monokai-syntax"
+    ]
+    titleBar: "custom"
+  editor:
+    showInvisibles: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "8d6dbc73-9252-7f14-3ad9-c234ba888bdd"
+  "file-icons":
+    coloured: false
+    onChanges: true
+  "git-plus":
+    general:
+      _analyticsUserId: "70bb5faf-7215-4e94-884d-e28c9246fb1a"
+  "linter-ui-default":
+    panelHeight: 150
+    showPanel: true
+  "markdown-preview":
+    useGitHubStyle: true
+  pigments:
+    ignoredScopes: [
+      "\\.comment"
+    ]
+    markerType: "gutter"
+  "spell-check":
+    locales: [
+      "en-GB"
+    ]
+  tabs:
+    usePreviewTabs: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".ansible.source":
+  editor:
+    showInvisibles: true
