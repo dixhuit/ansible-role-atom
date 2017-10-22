@@ -5,8 +5,8 @@
 Installs and configures [Atom](https://atom.io) on macOS.
 
 - Installs Atom (via Homebrew Cask).
-- Installs your Atom packages.
-- Copies your config into place.
+- Installs Atom packages.
+- Copies config into place.
 - Upgrades existing Atom packages if desired.
 
 
