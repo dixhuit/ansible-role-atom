@@ -2,6 +2,7 @@
 - hosts: localhost
   remote_user: root
   vars:
+    atom_upgrade_packages: true
     atom_packages:
       - editorconfig
       - git-plus
