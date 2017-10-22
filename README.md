@@ -1,6 +1,6 @@
 # Ansible role: Quick Look plugins
 
-TODO: Build badge here
+[![Build Status](https://travis-ci.org/danbohea/ansible-role-atom.svg?branch=master)](https://travis-ci.org/danbohea/ansible-role-atom)
 
 Installs and configures [Atom](https://atom.io) on macOS.
 
@@ -8,6 +8,7 @@ Installs and configures [Atom](https://atom.io) on macOS.
 - Installs your Atom packages.
 - Copies your config into place.
 - Upgrades existing Atom packages if desired.
+
 
 ## Requirements
 
