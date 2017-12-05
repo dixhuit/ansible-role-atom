@@ -10,6 +10,13 @@
     creates: "{{ ansible_env.HOME }}/.atom/packages/{{ item }}"
   with_items: "{{ atom_packages }}"
 
+- name: Write Atom config.
+  copy:
+    src: "{{ atom_config_src_path }}"
+    dest: "{{ ansible_env.HOME }}/.atom/config.cson"
+    mode: 0644
+  when: atom_config_src_path != ""
+
 - name: Upgrade Atom packages.
   command: apm upgrade --no-confirm
   register: apm_upgrade

@@ -6,6 +6,7 @@ Installs and configures [Atom](https://atom.io) on macOS.
 
 - Installs Atom (via Homebrew Cask).
 - Installs Atom packages.
+- Copies config into place.
 - Upgrades existing Atom packages if desired.
 
 
@@ -26,6 +27,11 @@ atom_upgrade_packages: false
 # Values must be apm package names.
 # Fill yer boots: https://atom.io/packages
 atom_packages: []
+
+# Atom config.cson file to copy into place.
+# Specify path including filename. Can be absolute or relative.
+# Leave empty to use default Atom config.
+atom_config_src_path: ""
 ```
 
 
