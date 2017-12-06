@@ -10,12 +10,12 @@ matrix:
     # macOS 10.11
     - osx_image: xcode8
 
-before_install:
-  # Uninstall preinstalled Homebrew
-  - 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)" </dev/null'
-  - rm -rf /usr/local/Homebrew
-  - sudo rm -rf /usr/local/Caskroom
-  - rm -rf /usr/local/bin/brew
+# before_install:
+#   # Uninstall preinstalled Homebrew
+#   - 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)" </dev/null'
+#   - rm -rf /usr/local/Homebrew
+#   - sudo rm -rf /usr/local/Caskroom
+#   - rm -rf /usr/local/bin/brew
 
 install:
   # Debug info
