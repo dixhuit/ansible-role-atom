@@ -2,7 +2,7 @@
 
 - name: Install Atom.
   homebrew_cask: name=atom state=present
-  notify: brew cask cleanup
+  notify: brew cleanup
 
 - name: Install Atom packages.
   command: apm install {{ item }}
