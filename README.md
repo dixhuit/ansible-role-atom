@@ -12,7 +12,7 @@ Installs and configures [Atom](https://atom.io) on macOS.
 
 ## Requirements
 
-- macOS 10.11 or 10.12
+- macOS 10.13
 
 
 ## Role Variables
